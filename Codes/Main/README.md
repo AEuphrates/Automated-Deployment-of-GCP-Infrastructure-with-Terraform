@@ -6,13 +6,13 @@ This guide details step-by-step how to use Terraform to create a Virtual Private
 2. Terraform must be installed.
 
 ## Usage
--In the directory where your Terraform configuration files are located, initialize Terraform:
+- In the directory where your Terraform configuration files are located, initialize Terraform:
 `terraform init`
--Check the correctness of the configuration and the resources that will be created:
+- Check the correctness of the configuration and the resources that will be created:
 `terraform plan`
--To create the resources, run the Terraform apply command:
+- To create the resources, run the Terraform apply command:
 `terraform apply`
--After successfully creating the resources, if you want to remove them (They will be completely deleted, it is not recommended to use this unless necessary.):
+- After successfully creating the resources, if you want to remove them (They will be completely deleted, it is not recommended to use this unless necessary.):
 `terraform destroy`
 
 ## Created Resources
